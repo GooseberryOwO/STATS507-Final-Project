@@ -26,6 +26,7 @@ This repository contains all code, configuration files, and evaluation artifacts
 src/ # Python source code (training, prediction, figures)
 
 STATS_507_Final_Project.pdf/ # Summary report
+
 result/ # Generated outputs (predictions + metrics + figures)
 
 final.ipynb # Colab notebook used for experimentation
