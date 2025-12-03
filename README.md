@@ -29,15 +29,23 @@ README.md # This file
 ### Install dependencies
 ```bash
 pip install torch torchvision transformers datasets accelerate pandas matplotlib
+```
+
 
 ###Train model
+```bash
 python src/train.py --model_name google/vit-base-patch16-224-in21k \
   --output_dir runs/vit_local --epochs 1 --lr 5e-5 --batch_size 16 \
   --weight_decay 0.05 --val_split 0.10 --seed 507 --fp16
+```
 
 ###Generate predictions
+```bash
 python src/save_predictions.py --run_dir runs/vit_local --split test
 Create confusion figure
+```
 
 ###Create confusion figure
+```bash
 python src/make_figures.py --run_dir runs/vit_local --split test
+```
