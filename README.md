@@ -41,7 +41,7 @@ README.md # This file
 
 ### Install dependencies
 ```bash
-pip install torch torchvision transformers datasets accelerate pandas matplotlib
+pip install -r requirements.txt
 ```
 
 
