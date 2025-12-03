@@ -23,11 +23,14 @@ This repository contains all code, configuration files, and evaluation artifacts
 ---
 
 ## Repository Structure
-src/ # Training and evaluation scripts
+src/ # Python source code (training, prediction, figures)
 
-result/ # Predictions, metrics, confusion figure (no weights)
+STATS_507_Final_Project.pdf/ # Summary report
+result/ # Generated outputs (predictions + metrics + figures)
 
-final_report.tex # LaTeX report
+final.ipynb # Colab notebook used for experimentation
+
+requirements.txt # Python dependencies
 
 README.md # This file
 
