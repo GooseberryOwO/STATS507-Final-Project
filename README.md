@@ -25,7 +25,7 @@ This repository contains all code, configuration files, and evaluation artifacts
 ## Repository Structure
 src/ # Training and evaluation scripts
 
-runs/vit_colab/ # Predictions, metrics, confusion figure (no weights)
+result/ # Predictions, metrics, confusion figure (no weights)
 
 final_report.tex # LaTeX report
 
