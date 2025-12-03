@@ -1,18 +1,24 @@
 # STATS 507 Final Project  
 ## Food Image Classification with Vision Transformers (Food-101)
 
-**Author:** Yuze Jin  
+**Author:** Yuze Jin  54587468
 **Course:** STATS 507 — Data Science & Analytics Using Python
 
 ---
 
 ## Overview
-This project fine-tunes a Vision Transformer (ViT-Base/16) on the Food-101 dataset using Hugging Face tools.  
-The model predicts food categories from images and maps predictions to approximate nutrition profiles using USDA data.
+This project implements an end-to-end food image classification system using the **Food-101** dataset and a **Vision Transformer (ViT-Base/16)** fine-tuned with the Hugging Face ecosystem.  
+The goal is to classify food images and map predicted labels to approximate nutritional profiles derived from **USDA FoodData Central**, demonstrating how computer vision models can support lightweight nutrition-aware applications.
 
-**Final Test Performance**
-- Top-1 Accuracy: 87.05%
-- Top-5 Accuracy: 97.50%
+The final fine-tuned model achieves:
+
+- **Top-1 Accuracy:** 87.05%  
+- **Top-5 Accuracy:** 97.50%  
+- **Dataset:** Food-101 test split (25,250 images)
+
+Misclassification analysis and confusion-pair visualization are included to better understand model behavior.
+
+This repository contains all code, configuration files, and evaluation artifacts required to reproduce the results.
 
 ---
 
